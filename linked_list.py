@@ -21,14 +21,14 @@ class LinkedList:
         print(llstr)
 
     def get_length(self):
-        countt = 0
+        count = 0
         itr = self.head
         while itr:
             count+=1
             itr = itr.next
             
 
-        return countt
+        return count
 
     def insert_at_begining(self, data):
         node = Node(data, self.head)
