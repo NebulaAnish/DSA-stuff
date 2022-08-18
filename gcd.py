@@ -1,4 +1,4 @@
-
+#GCD using recursion
 def gcd(dividend, divisor):
     if (dividend % divisor) == 0:
         return divisor
